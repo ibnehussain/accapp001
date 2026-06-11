@@ -79,7 +79,7 @@ Example response shape:
 }
 ```
 
-`visibility` is returned in kilometers (km).
+`visibility` is returned in kilometers (km). OpenWeatherMap provides visibility in meters, and this app converts it to km before returning the response.
 
 ## Notes
 
