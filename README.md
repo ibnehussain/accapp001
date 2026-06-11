@@ -17,8 +17,8 @@
 
 ## Project Structure
 
-- `/home/runner/work/accapp001/accapp001/ibnehussain/accapp001/app.py` – Flask backend and weather API integration.
-- `/home/runner/work/accapp001/accapp001/ibnehussain/accapp001/index.html` – Frontend dashboard UI.
+- `app.py` – Flask backend and weather API integration.
+- `index.html` – Frontend dashboard UI.
 
 ## Setup
 
@@ -43,7 +43,7 @@
 
 ## Run the App
 
-From `/home/runner/work/accapp001/accapp001/ibnehussain/accapp001`:
+From the project root directory:
 
 ```bash
 python app.py
@@ -78,6 +78,8 @@ Example response shape:
   "clouds": 90
 }
 ```
+
+`visibility` is returned in kilometers (km).
 
 ## Notes
 
